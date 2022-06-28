@@ -1,15 +1,24 @@
-## pyNublado
+# pyNublado
 
-Docs: https://raulorteg.github.io/pyNublado/
+A Python package to run (a lot of) [Cloudy](https://nublado.org) models.
 
-A package to run (a lot of) [Cloudy](https://nublado.org) models.
 
-### Running Cloudy
+## Documentation
+Information pertaining to the installation, usage, available parameters, and science can be found in the [documentation](https://raulorteg.github.io/pyNublado/)
 
+## Cite this repo / work
+Add paper reference here once it is ready.
+
+## Feedback
+Feedback and questions are welcome. Please get in touch.
+
+
+
+=======
 Example of running Cloudy independently:
 1. Create a _[name].in_ file
 2. Navigate to the folder where the .in file is located
-3. Execute Cloudy from the directory ```~/c17.02/source/cloudy.exe [name].in```
+3. Execute Cloudy from the directory ```~/c17.03/source/cloudy.exe [name].in```
 
 
 ### Input parameters
@@ -24,8 +33,7 @@ Example of running Cloudy independently:
     * Stellar metallicity (Z): 1e-5-0.040 (absolute value)
 
 
-### Output params:
-* Lines in ```data/LineLabels_filtered.txt```.
+
 
 
 ### Testing
